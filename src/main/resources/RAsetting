@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<environment>
+    <ProductState id="1">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>0</x>
+        <y>0</y>
+    </ProductState>
+    <ProductState id="2">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>40</x>
+        <y>30</y>
+    </ProductState>
+    <ProductState id="3">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>41</x>
+        <y>30</y>
+    </ProductState>
+    <ProductState id="4">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>40</x>
+        <y>29</y>
+    </ProductState>
+    <ProductState id="5">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>40</x>
+        <y>20</y>
+    </ProductState>
+    <ProductState id="6">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>41</x>
+        <y>20</y>
+    </ProductState>
+    <ProductState id="7">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>40</x>
+        <y>10</y>
+    </ProductState>
+    <ProductState id="8">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>50</x>
+        <y>20</y>
+    </ProductState>
+    <ProductState id="9">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>49</x>
+        <y>20</y>
+    </ProductState>
+    <ProductState id="10">
+        <objectname>conveyor</objectname>
+        <process>null</process>
+        <x>40</x>
+        <y>0</y>
+    </ProductState>
+
+    <ResourceEvent>
+        <raId>0</raId>
+        <from>1</from>
+        <to>2</to>
+        <activeMethod>0</activeMethod>
+        <eventTime>1000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>0</raId>
+        <from>2</from>
+        <to>3</to>
+        <activeMethod>1</activeMethod>
+        <eventTime>1000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>0</raId>
+        <from>2</from>
+        <to>4</to>
+        <activeMethod>2</activeMethod>
+        <eventTime>1000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>1</raId>
+        <from>4</from>
+        <to>5</to>
+        <activeMethod>0</activeMethod>
+        <eventTime>5000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>1</raId>
+        <from>5</from>
+        <to>6</to>
+        <activeMethod>1</activeMethod>
+        <eventTime>5000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>1</raId>
+        <from>6</from>
+        <to>5</to>
+        <activeMethod>2</activeMethod>
+        <eventTime>5000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>1</raId>
+        <from>5</from>
+        <to>7</to>
+        <activeMethod>3</activeMethod>
+        <eventTime>1000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>2</raId>
+        <from>3</from>
+        <to>8</to>
+        <activeMethod>0</activeMethod>
+        <eventTime>1000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>2</raId>
+        <from>8</from>
+        <to>9</to>
+        <activeMethod>1</activeMethod>
+        <eventTime>11000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>2</raId>
+        <from>8</from>
+        <to>7</to>
+        <activeMethod>2</activeMethod>
+        <eventTime>1000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>2</raId>
+        <from>7</from>
+        <to>10</to>
+        <activeMethod>3</activeMethod>
+        <eventTime>10000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>3</raId>
+        <from>6</from>
+        <to>9</to>
+        <activeMethod>0</activeMethod>
+        <eventTime>20000</eventTime>
+    </ResourceEvent>
+    <ResourceEvent>
+        <raId>3</raId>
+        <from>9</from>
+        <to>6</to>
+        <activeMethod>0</activeMethod>
+        <eventTime>20000</eventTime>
+    </ResourceEvent>
+
+    <Product>
+        <name></name>
+        <origin></origin>
+    </Product>
+
+</environment>
